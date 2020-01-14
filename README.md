@@ -33,8 +33,26 @@ Further information can be found here: https://github.com/react-native-community
 ### `react-native@0.61.0` or higher
 
 ```sh
-npx react-native init MyApp --template react-native-template-mdd2
+npx react-native init TestApp --template react-native-template-mdd2
+
+or
+
+npx react-native init TestApp --template https://github.com/mustafademirtas/react-native-template-mdd22
 ```
+
+#### Install
+```bash
+
+# Link Assets
+yarn link:asset
+
+```
+
+## Issues
+
+#### 1. Multiple commands produce' error when building with new Xcode build system
+
+[Solution Link](https://github.com/oblador/react-native-vector-icons/issues/1074)
 
 ## :computer: Contributing
 
