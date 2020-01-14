@@ -1,0 +1,6 @@
+{
+    "name": "Sub",
+    "private": true,
+    "main": "./Sub.tsx",
+    "version": "0.0.0"
+}

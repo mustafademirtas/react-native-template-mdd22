@@ -1,0 +1,6 @@
+{
+    "name": "AuthLoading",
+    "private": true,
+    "main": "./AuthLoading.tsx",
+    "version": "0.0.0"
+}

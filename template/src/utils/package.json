@@ -1,0 +1,6 @@
+{
+    "name": "utils",
+    "private": true,
+    "main": "./utils.ts",
+    "version": "0.0.0"
+}

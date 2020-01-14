@@ -1,0 +1,6 @@
+{
+    "name": "SignIn",
+    "private": true,
+    "main": "./SignIn.tsx",
+    "version": "0.0.0"
+}

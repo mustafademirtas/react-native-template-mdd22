@@ -1,0 +1,6 @@
+{
+    "name": "Settings",
+    "private": true,
+    "main": "./Settings.tsx",
+    "version": "0.0.0"
+}

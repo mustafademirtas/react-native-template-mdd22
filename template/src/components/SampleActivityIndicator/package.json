@@ -1,0 +1,6 @@
+{
+    "name": "SampleActivityIndicator",
+    "private": true,
+    "main": "./SampleActivityIndicator.tsx",
+    "version": "0.0.0"
+}

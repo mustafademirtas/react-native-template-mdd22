@@ -33,13 +33,7 @@ Further information can be found here: https://github.com/react-native-community
 ### `react-native@0.61.0` or higher
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript
-```
-
-### `react-native@0.60.x`
-
-```sh
-npx react-native init MyApp --template react-native-template-typescript@6.2.0
+npx react-native init MyApp --template react-native-template-mdd2
 ```
 
 ## :computer: Contributing

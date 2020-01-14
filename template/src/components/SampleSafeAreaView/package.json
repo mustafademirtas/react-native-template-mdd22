@@ -1,0 +1,6 @@
+{
+    "name": "SampleSafeAreaView",
+    "private": true,
+    "main": "./SampleSafeAreaView.tsx",
+    "version": "0.0.0"
+}

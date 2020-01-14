@@ -1,0 +1,6 @@
+{
+    "name": "SampleDefaultText",
+    "private": true,
+    "main": "./SampleDefaultText.tsx",
+    "version": "0.0.0"
+}

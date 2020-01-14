@@ -1,0 +1,6 @@
+{
+    "name": "SampleTextInput",
+    "private": true,
+    "main": "./SampleTextInput.tsx",
+    "version": "0.0.0"
+}

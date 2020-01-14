@@ -1,0 +1,6 @@
+{
+    "name": "SampleButton",
+    "private": true,
+    "main": "./SampleButton.tsx",
+    "version": "0.0.0"
+}

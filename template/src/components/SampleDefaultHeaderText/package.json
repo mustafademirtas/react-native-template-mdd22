@@ -1,0 +1,6 @@
+{
+    "name": "SampleDefaultHeaderText",
+    "private": true,
+    "main": "./SampleDefaultHeaderText.tsx",
+    "version": "0.0.0"
+}

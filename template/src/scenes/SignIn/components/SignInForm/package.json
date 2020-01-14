@@ -1,0 +1,6 @@
+{
+    "name": "SignInForm",
+    "private": true,
+    "main": "./SignInForm.tsx",
+    "version": "0.0.0"
+}

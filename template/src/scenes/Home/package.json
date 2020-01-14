@@ -1,0 +1,6 @@
+{
+    "name": "Home",
+    "private": true,
+    "main": "./Home.tsx",
+    "version": "0.0.0"
+}

@@ -5,27 +5,54 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "ios:release" : "react-native run-ios --configuration Release",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "link:asset":"react-native link"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
+    "@react-native-community/google-signin": "^3.0.4",
+    "@react-native-community/masked-view": "^0.1.5",
+    "axios": "^0.19.1",
+    "formik": "^2.1.1",
+    "mobx": "^5.15.1",
+    "mobx-react": "^6.1.4",
+    "qs": "^6.9.1",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-elements": "^1.2.7",
+    "react-native-fbsdk": "^1.1.1",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-screens": "^2.0.0-alpha.22",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^2.0.13",
+    "styled-components": "^4.4.1",
+    "yup": "^0.28.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
     "@types/jest": "^24.0.24",
+    "@types/qs": "^6.9.0",
     "@types/react-native": "^0.60.25",
+    "@types/react-native-dotenv": "^0.2.0",
     "@types/react-test-renderer": "16.9.1",
+    "@types/styled-components": "^4.4.2",
+    "@types/yup": "^0.26.27",
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
     "babel-jest": "^24.9.0",
+    "detox": "^15.1.0",
     "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
+    "react-native-dotenv": "^0.2.0",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.7.3"
   },
@@ -39,5 +66,16 @@
       "json",
       "node"
     ]
+  },
+  "detox": {
+    "test-runner": "jest",
+    "configurations": {
+      "ios.release": {
+        "binaryPath": "./ios/build/Build/Products/Release-iphonesimulator/HelloWorld.app",
+        "build": "xcodebuild -workspace ios/HelloWorld.xcworkspace -configuration release -scheme HelloWorld -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 11"
+      }
+    }
   }
 }
