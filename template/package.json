@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "link:asset":"react-native link"
+    "link:rubikfont":"react-native link ./src/assets/fonts/Rubik"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",

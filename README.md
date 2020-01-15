@@ -34,9 +34,7 @@ npx react-native init TestApp --template https://github.com/mustafademirtas/reac
 ```bash
 
 # Link Assets
-yarn link:asset
-
-react-native link ./src/assets/fonts/Rubik
+yarn link:rubikfont
 
 ```
 
