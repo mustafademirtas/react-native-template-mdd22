@@ -1,15 +1,6 @@
-# :space_invader: React Native Template TypeScript
+# React Native Template MDD22
 
 <p>
-  <a href="https://travis-ci.org/react-native-community/react-native-template-typescript">
-    <img alt="Build Status" src="https://img.shields.io/travis/react-native-community/react-native-template-typescript.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
   <a href="https://github.com/react-native-community/react-native-template-typescript/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
@@ -21,7 +12,6 @@
 
 - Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
 - Consistent with the default React Native template
-- Minimal additional dependencies
 
 ## :arrow_forward: Usage
 
@@ -40,11 +30,13 @@ or
 npx react-native init TestApp --template https://github.com/mustafademirtas/react-native-template-mdd22
 ```
 
-#### Install
+### Install
 ```bash
 
 # Link Assets
 yarn link:asset
+
+react-native link ./src/assets/fonts/Rubik
 
 ```
 
